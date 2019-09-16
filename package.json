@@ -7,7 +7,6 @@
     "watch": "webpack --config webpack.dev.js --mode development",
     "dev": "webpack --watch --config webpack.dev.js --mode development",
     "build": "webpack --config webpack.prod.js --mode production --watch",
-    "webpack:js": "webpack -w"
   },
   "author": "",
   "license": "ISC",
