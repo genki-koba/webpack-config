@@ -30,3 +30,4 @@ $ npm install
 ```
 $ npm run dev
 ```
+(this command might be executed in development environments. Add npm scripts with your preferences.)
