@@ -31,4 +31,7 @@ $ npm install
 ```
 $ npm run dev
 ```
-(this command might be executed in development environments. Add npm scripts with your preferences.)
+(this command(dev command) should be executed in development environments. Add npm scripts with your preferences.)
+
+In step.4, a configration error can be occurred when a npm command has been executed before the entry points are set.
+
