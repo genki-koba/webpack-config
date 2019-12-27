@@ -88,7 +88,9 @@ module.exports = [
                                     // Autoprefixerを有効化
                                     // ベンダープレフィックスを自動付与する
                                     require("autoprefixer")({
-                                        grid: true
+                                        grid: true,
+                                        //"https://browserl.ist/"を参考にプレフィックスを以下のように付与
+                                        browsers: ["last 2 versions", "ie >= 11", "Android >= 4", 'iOS >= 6', 'Firefox ESR']
                                     })
                                 ]
                             }
